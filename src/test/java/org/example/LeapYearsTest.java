@@ -8,7 +8,7 @@ import static org.junit.Assert.assertFalse;
 
 public class LeapYearsTest {
     @Test
-    public void isLeapYearsYearDivisibleBy400ShouldReturnTrue() {
+    public void testIsLeapYears_YearDivisibleBy400_ShouldReturnTrue() {
         int year = 2000; //Arrange -> Année divisible par 400
         LeapYears leapYears = new LeapYears(); //Constructeur de la classe LeapYears
         //Nous avons besoin d'une instance de la classe LeapYears afin de pouvoir ap- peler la fonction isLeapYears
@@ -16,7 +16,7 @@ public class LeapYearsTest {
         assertTrue(isLeapYears); //Assert -> Le test est bon si isLeapYears est vrai.
     }
     @Test
-    public void isLeapYearsYearDivisibleBy100ButNotBy400ShouldReturnFalse() {
+    public void testIsLeapYears_YearDivisibleBy100ButNotBy400_ShouldReturnFalse() {
         //Arrange
         int year = 1900;
         LeapYears leapYears = new LeapYears();
@@ -26,7 +26,7 @@ public class LeapYearsTest {
         assertFalse(isLeapYears);
     }
     @Test
-    public void isLeapYearsYearDivisibleBy4ButNotBy100ShouldReturnTrue() { //Arrange
+    public void testIsLeapYears_YearDivisibleBy4ButNotBy100_ShouldReturnTrue() { //Arrange
         int year = 1960;
         LeapYears leapYears = new LeapYears();
         //Act
@@ -36,7 +36,7 @@ public class LeapYearsTest {
     }
 
     @Test
-    public void isLeapYearsYearNotDivisibleBy4ShouldReturnFalse(){
+    public void testIsLeapYears_YearNotDivisibleBy4_ShouldReturnFalse(){
         //Arrange
         int year = 2019;
         LeapYears leapYears = new LeapYears();

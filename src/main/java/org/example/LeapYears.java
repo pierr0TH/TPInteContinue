@@ -2,6 +2,7 @@ package org.example;
 
 public class LeapYears {
         public boolean isLeapYears(int year) {
+                /*
                 if (year % 400 == 0) {
                         return true;
                 }
@@ -9,5 +10,7 @@ public class LeapYears {
                         return true;
                 }
                 return false;
+                 */
+                return (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0));
         }
 }
