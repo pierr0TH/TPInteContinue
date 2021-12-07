@@ -17,4 +17,11 @@ public class BonjourTest {
         String saluer = bonjour.saluer(name);
         Assert.assertEquals("Bonjour, l'ami", saluer);
     }
+    @Test
+    public void testSaluer_methodeDoitGererLesCris() {
+        String name = "BARRET";
+        Bonjour bonjour = new Bonjour();
+        String saluer = bonjour.saluer(name);
+        Assert.assertEquals("BONJOUR, " + name, saluer);
+    }
 }
