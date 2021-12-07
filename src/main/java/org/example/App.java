@@ -10,7 +10,7 @@ public class App
     {
         System.out.println( "Hello World!" );
         TataYoyo tataYoyo = new TataYoyo();
-        for (int i = 1; i < 50; i++) {
+        for (int i = 1; i <= 50; i++) {
             tataYoyo.afficherTataYoyo(i);
             System.out.println("Nombre " + i);
         }
