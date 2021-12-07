@@ -13,5 +13,12 @@ public class TataYoyoTest {
         String afficherTataYoyo = tataYoyo.afficherTataYoyo(number);
         Assert.assertEquals("Tata", afficherTataYoyo);
     }
+    @Test
+    public void testAfficherTataYoyo_divisiblePar5_doitRetournerYoyo() {
+        int number = 35;
+        TataYoyo tataYoyo = new TataYoyo();
+        String afficherTataYoyo = tataYoyo.afficherTataYoyo(number);
+        Assert.assertEquals("Yoyo", afficherTataYoyo);
+    }
 
 }

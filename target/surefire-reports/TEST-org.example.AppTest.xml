@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.AppTest" time="0.073" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.AppTest" time="0.043" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/Users/Pierre/Library/Java/JavaVirtualMachines/openjdk-17.0.1/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/Pierre/Downloads/TPInteContinue/target/surefire/surefirebooter16822558824153621970.jar /Users/Pierre/Downloads/TPInteContinue/target/surefire 2021-12-07T09-05-11_323-jvmRun1 surefire6755438331580121396tmp surefire_012209580414645831867tmp"/>
+    <property name="sun.java.command" value="/Users/Pierre/Downloads/TPInteContinue/target/surefire/surefirebooter1243035110129031341.jar /Users/Pierre/Downloads/TPInteContinue/target/surefire 2021-12-07T09-16-49_552-jvmRun1 surefire3305594598171209358tmp surefire_07017585475662439066tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/Pierre/Downloads/TPInteContinue/target/test-classes:/Users/Pierre/Downloads/TPInteContinue/target/classes:/Users/Pierre/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/Pierre/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/Pierre/Downloads/TPInteContinue/target/surefire/surefirebooter16822558824153621970.jar"/>
+    <property name="surefire.real.class.path" value="/Users/Pierre/Downloads/TPInteContinue/target/surefire/surefirebooter1243035110129031341.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.1+12-39"/>
