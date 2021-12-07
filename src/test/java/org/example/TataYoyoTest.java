@@ -2,9 +2,6 @@ package org.example;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertFalse;
-
 public class TataYoyoTest {
     @Test
     public void testAfficherTataYoyo_divisiblePar3_doitRetournerTata() {
