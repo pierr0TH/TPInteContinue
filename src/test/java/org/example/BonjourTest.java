@@ -24,4 +24,11 @@ public class BonjourTest {
         String saluer = bonjour.saluer(name);
         Assert.assertEquals("BONJOUR, " + name, saluer);
     }
+    @Test
+    public void testSaluer_methodeSeparationDesNomsParVirgule() {
+        String name = "Tifa, Aerith";
+        Bonjour bonjour = new Bonjour();
+        String saluer = bonjour.saluer(name);
+        Assert.assertEquals("Bonjour, Tifa et Aerith", saluer);
+    }
 }
