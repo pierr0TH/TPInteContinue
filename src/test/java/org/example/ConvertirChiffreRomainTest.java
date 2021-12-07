@@ -22,6 +22,6 @@ public class ConvertirChiffreRomainTest {
         int number = 2006;
         ConvertirChiffreRomain chiffreRomain = new ConvertirChiffreRomain();
         String conversionChiffres = chiffreRomain.conversionChiffreArabeEnChiffreRomain(number);
-        Assert.assertEquals("MCMXLIV", conversionChiffres);
+        Assert.assertEquals("MMVI", conversionChiffres);
     }
 }
