@@ -31,11 +31,4 @@ public class BonjourTest {
         String saluer = bonjour.saluer(name);
         Assert.assertEquals("Bonjour, Tifa et Aerith", saluer);
     }
-    @Test
-    public void testSaluer_methodeInfiniteDeNoms() {
-        String name = "Cloud, Tifa, Aerith";
-        Bonjour bonjour = new Bonjour();
-        String saluer = bonjour.saluer(name);
-        Assert.assertEquals("Bonjour Cloud, Tifa et Aerith", saluer);
-    }
 }

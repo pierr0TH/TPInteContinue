@@ -15,7 +15,7 @@ public class Bonjour {
         if (Objects.equals(name, "")) return "Bonjour, l'ami";
         if (isStringUpperCase(name)) return "BONJOUR, " + name;
         if (name.contains(",")) {
-            name = name.replaceAll(",", " et");
+            name = name.replace(",", " et");
         }
         return "Bonjour, " + name;
     }
