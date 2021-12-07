@@ -10,4 +10,11 @@ public class BonjourTest {
         String saluer = bonjour.saluer(name);
         Assert.assertEquals("Bonjour, " + name, saluer);
     }
+    @Test
+    public void testSaluer_siParametreNullOuVide_doitRetournerBonjourLAmi() {
+        String name = "";
+        Bonjour bonjour = new Bonjour();
+        String saluer = bonjour.saluer(name);
+        Assert.assertEquals("Bonjour, l'ami", saluer);
+    }
 }
